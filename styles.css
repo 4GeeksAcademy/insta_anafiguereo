@@ -1,0 +1,35 @@
+.tit{
+    display: flex;
+    justify-content: center;
+}
+body {
+    background: grey
+}
+.post {
+    justify-content: center;
+    background: white;
+}
+.post1 {
+    display: block;
+    padding: 0px 450px 0px 450px;
+    justify-content: center;
+    height: 600px;
+    position: relative;
+}
+img {
+    height: 350px;
+    width: 350px;
+    justify-content: center;
+}
+p {
+    font-size: 30px;
+    display: flex;
+    text-align: right;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+strong {
+    justify-content: flex-start;
+    font-size: 25px;
+    text-align: left;
+}
