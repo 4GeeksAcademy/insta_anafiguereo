@@ -1,35 +1,36 @@
 .tit{
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    background: white;
+    
+}
+.tit h1 {
+    margin: 0;
+    padding: 30px 0px;
 }
 body {
-    background: grey
+    background: rgb(208, 208, 208);
+    margin: 0;
 }
-.post {
-    justify-content: center;
-    background: white;
+.post_instagram {
+    background-color: white;
+    width: 550px;
+    margin: 50px auto;
+    font-family: "Indie Flower", cursive;
 }
-.post1 {
-    display: block;
-    padding: 0px 450px 0px 450px;
-    justify-content: center;
-    height: 600px;
-    position: relative;
+.post_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.post_header p {
+    opacity: 0.5;
+}
+.post_instagram p {
+    padding: 0 10px 10px;
 }
 img {
-    height: 350px;
-    width: 350px;
-    justify-content: center;
-}
-p {
-    font-size: 30px;
-    display: flex;
-    text-align: right;
-    display: inline-block;
-    justify-content: space-evenly;
-}
-strong {
-    justify-content: flex-start;
-    font-size: 25px;
-    text-align: left;
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
 }
